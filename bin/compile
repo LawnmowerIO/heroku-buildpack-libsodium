@@ -47,4 +47,5 @@ echo -n "-----> Configuring libsodium environment variables... "
 set-env LD_LIBRARY_PATH \$LD_LIBRARY_PATH:/app/vendor/$SODIUM_DIR/src/libsodium/.libs
 set-env LIBRARY_PATH \$LIBRARY_PATH:/app/vendor/$SODIUM_DIR/src/libsodium/.libs
 set-env C_INCLUDE_PATH \$C_INCLUDE_PATH:/app/vendor/$SODIUM_DIR/src/libsodium/include/
+set-env PKG_CONFIG_PATH \$PKG_CONFIG_PATH:/app/vendor/$SODIUM_DIR/src/libsodium/.libs
 echo "done"
